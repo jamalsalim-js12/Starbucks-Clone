@@ -155,7 +155,14 @@ header ul {
     display: flex;
     justify-content: center;
     align-items: center;
+    /* flex-direction: column; */
+}
+
+.text-content {
+    display: flex;
     flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 
 .container1 .subcontainer1 .text-content h2 {
@@ -187,9 +194,9 @@ header ul {
 }
 
 button {
-    height: 30px;
+    height: 35px;
     width: 120px;
-    border-radius: 1rem;
+    border-radius: 1.3rem;
     border: 1px solid black;
     background-color: transparent;
 }
@@ -218,4 +225,214 @@ button {
 .container2 .subcontainer2 button {
     color: white;
     border: 1px solid white;
+}
+
+.container3 .subcontainer1 .text-content {
+    width: 517px;
+    height: 283px;
+    /* background-color: blue; */
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+.container3 .subcontainer1 .text-content h2 {
+    font-size: 50px;
+    line-height: 60px;
+    word-spacing: 2px;
+    text-align: center;
+    padding-bottom: 22px;
+    color: #1e3932;
+}
+
+.container3 .subcontainer1 .text-content p {
+    font-size: 22px;
+    line-height: 36px;
+    text-align: center;
+    font-weight: 400;
+    text-align: center;
+    color: #1e3932;
+    padding-bottom: 22px;
+}
+
+.container3 .subcontainer1 .text-content button,
+.container4 .subcontainer2 .text-content button,
+.container5 .subcontainer1 .text-content button {
+    width: 105px;
+    height: 32px;
+    text-align: center;
+}
+
+
+.container4 .subcontainer2 .text-content h2 {
+    font-size: 50px;
+    line-height: 60px;
+    word-spacing: 2px;
+    text-align: center;
+    padding-bottom: 22px;
+    color: #1e3932;
+}
+
+.container4 .subcontainer2 .text-content p {
+    font-size: 22px;
+    line-height: 36px;
+    text-align: center;
+    font-weight: 400;
+    text-align: center;
+    padding-left: 70px;
+    padding-right: 70px;
+    color: #1e3932;
+    padding-bottom: 22px;
+}
+
+.container5 .subcontainer1 .text-content h2 {
+    font-size: 50px;
+    line-height: 60px;
+    word-spacing: 2px;
+    text-align: center;
+    padding-bottom: 22px;
+    color: #1e3932;
+}
+
+.container5 .subcontainer1 .text-content p {
+    font-size: 24px;
+    line-height: 36px;
+    text-align: center;
+    font-weight: 400;
+    text-align: center;
+    padding-left: 70px;
+    padding-right: 70px;
+    color: #1e3932;
+    padding-bottom: 22px;
+}
+
+.container6 .subcontainer2 .text-content {
+    width: 517px;
+    height: 226px;
+}
+
+.container6 .subcontainer2 .text-content h3 {
+    font-size: 24px;
+    text-align: center;
+    line-height: 36px;
+    color: white;
+    padding-bottom: 22px;
+}
+
+.container6 .subcontainer2 .text-content p {
+    color: white;
+    text-align: center;
+    line-height: 33.25px;
+    font-size: 19px;
+    letter-spacing: -0.16px;
+    padding-bottom: 22px;
+}
+
+.container6 .subcontainer2 .text-content button {
+    color: white;
+    border: 1px solid white;
+}
+
+.offers {
+    width: 100%;
+    /* background-color: blue; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 30px;
+    margin-top: 30px;
+}
+
+.offers .text-content {
+    width: 35%;
+    font-size: 13px;
+    line-height: 24px;
+    /* background-color: red; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.offers .text-content a {
+    color: black;
+}
+
+.more-info {
+    margin-top: 80px;
+    font-size: 12.7px;
+}
+
+footer {
+    /* background-color: blue; */
+    width: 100%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    border-top: 2px solid gray;
+}
+
+.first-foot {
+    /* background-color: blue; */
+    width: 80%;
+    display: flex;
+    justify-content: start;
+    align-items: start;
+    gap: 40px;
+    margin-top: 30px;
+    padding-bottom: 20px;
+    border-bottom: 2px solid gray;
+}
+
+
+.first-foot h3 {
+    font-size: 16.79px;
+    padding-bottom: 30px;
+}
+
+.first-foot ul {
+    list-style-type: none;
+    font-size: 14px;
+    line-height: 24px;
+    color: rgba(102, 97, 97, 0.87);
+}
+
+.first-foot li {
+    padding-bottom: 20px;
+    /* font-size: 16px; */
+}
+
+.wrapper {
+    width: 175px;
+}
+
+.second-foot {
+    width: 80%;
+    margin-top: 30px;
+}
+
+.second-foot ul {
+    list-style: none;
+    display: flex;
+    gap: 15px;
+    margin-bottom: 30px;
+}
+
+.texts {
+    display: flex;
+    gap: 20px;
+    font-size: 15px;
+    color: rgba(34, 34, 34, 0.87);
+    margin-bottom: 15px;
+}
+
+small {
+    color: rgba(141, 141, 141, 0.87);
+    font-size: 14px;
+}
+
+.copyright {
+    margin-bottom: 50px;
 }
